@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import SignUp from './components/SignUp';
 import LogIn from './components/LogIn';
 import Dashboard from './components/Dashboard';
-import Modalpopup from './components/Modelpopup';
+
 
 
 
@@ -18,7 +18,7 @@ function App() {
         <Route path='/' element={<Dashboard/>}/>
         <Route path='/login' element={<LogIn/>}/>
         <Route path='/signup' element={<SignUp/>}/>
-        <Route path='/popup' element={<Modalpopup/>}/>
+        
       </Routes>
     </Router>
  
